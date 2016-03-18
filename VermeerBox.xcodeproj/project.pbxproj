@@ -13,7 +13,46 @@
 		DCAE0D301C96AE9200FF9A94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAE0D2E1C96AE9200FF9A94 /* Main.storyboard */; };
 		DCAE0D321C96AE9200FF9A94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCAE0D311C96AE9200FF9A94 /* Assets.xcassets */; };
 		DCAE0D351C96AE9200FF9A94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAE0D331C96AE9200FF9A94 /* LaunchScreen.storyboard */; };
+		DCAE0D3D1C96AF7C00FF9A94 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DCAE0D3C1C96AF7C00FF9A94 /* libstdc++.6.0.9.tbd */; };
+		DCAE0D3F1C96AF8900FF9A94 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DCAE0D3E1C96AF8900FF9A94 /* libz.tbd */; };
+		DCAE0DCE1C96B0AB00FF9A94 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DCAE0DCD1C96B0AB00FF9A94 /* libiconv.tbd */; };
+		DCFA3FB91C993A120077F835 /* VideoPreviewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFA3FB81C9932E90077F835 /* VideoPreviewer.framework */; };
+		DCFA3FBA1C993A120077F835 /* VideoPreviewer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DCFA3FB81C9932E90077F835 /* VideoPreviewer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DCFA3FBE1C993C550077F835 /* DJISDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFA3FBD1C993C550077F835 /* DJISDK.framework */; };
+		DCFA3FC01C993C5C0077F835 /* DJISDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DCFA3FBD1C993C550077F835 /* DJISDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCFA3FB71C9932E90077F835 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCFA3FB31C9932E90077F835 /* VideoPreviewer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 02A543FD1C3C51CB0083C11B;
+			remoteInfo = VideoPreviewer;
+		};
+		DCFA3FBB1C993A120077F835 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCFA3FB31C9932E90077F835 /* VideoPreviewer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 02A543FC1C3C51CB0083C11B;
+			remoteInfo = VideoPreviewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DCFA3FA61C991A1A0077F835 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DCFA3FBA1C993A120077F835 /* VideoPreviewer.framework in Embed Frameworks */,
+				DCFA3FC01C993C5C0077F835 /* DJISDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DCAE0D221C96AE9200FF9A94 /* VermeerBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VermeerBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,6 +65,11 @@
 		DCAE0D311C96AE9200FF9A94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCAE0D341C96AE9200FF9A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCAE0D361C96AE9200FF9A94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCAE0D3C1C96AF7C00FF9A94 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		DCAE0D3E1C96AF8900FF9A94 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		DCAE0DCD1C96B0AB00FF9A94 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		DCFA3FB31C9932E90077F835 /* VideoPreviewer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VideoPreviewer.xcodeproj; path = VideoPreviewer/VideoPreviewer.xcodeproj; sourceTree = "<group>"; };
+		DCFA3FBD1C993C550077F835 /* DJISDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DJISDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +77,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCAE0DCE1C96B0AB00FF9A94 /* libiconv.tbd in Frameworks */,
+				DCFA3FBE1C993C550077F835 /* DJISDK.framework in Frameworks */,
+				DCAE0D3F1C96AF8900FF9A94 /* libz.tbd in Frameworks */,
+				DCFA3FB91C993A120077F835 /* VideoPreviewer.framework in Frameworks */,
+				DCAE0D3D1C96AF7C00FF9A94 /* libstdc++.6.0.9.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				DCAE0D241C96AE9200FF9A94 /* VermeerBox */,
+				DCAE0D401C96AF9400FF9A94 /* Frameworks */,
 				DCAE0D231C96AE9200FF9A94 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,6 +129,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DCAE0D401C96AF9400FF9A94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCFA3FBD1C993C550077F835 /* DJISDK.framework */,
+				DCFA3FB31C9932E90077F835 /* VideoPreviewer.xcodeproj */,
+				DCAE0DCD1C96B0AB00FF9A94 /* libiconv.tbd */,
+				DCAE0D3E1C96AF8900FF9A94 /* libz.tbd */,
+				DCAE0D3C1C96AF7C00FF9A94 /* libstdc++.6.0.9.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCFA3FB41C9932E90077F835 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCFA3FB81C9932E90077F835 /* VideoPreviewer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,10 +159,12 @@
 				DCAE0D1E1C96AE9200FF9A94 /* Sources */,
 				DCAE0D1F1C96AE9200FF9A94 /* Frameworks */,
 				DCAE0D201C96AE9200FF9A94 /* Resources */,
+				DCFA3FA61C991A1A0077F835 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DCFA3FBC1C993A120077F835 /* PBXTargetDependency */,
 			);
 			name = VermeerBox;
 			productName = VermeerBox;
@@ -110,6 +182,7 @@
 				TargetAttributes = {
 					DCAE0D211C96AE9200FF9A94 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = M2BP9VG89R;
 					};
 				};
 			};
@@ -124,12 +197,28 @@
 			mainGroup = DCAE0D191C96AE9200FF9A94;
 			productRefGroup = DCAE0D231C96AE9200FF9A94 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DCFA3FB41C9932E90077F835 /* Products */;
+					ProjectRef = DCFA3FB31C9932E90077F835 /* VideoPreviewer.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				DCAE0D211C96AE9200FF9A94 /* VermeerBox */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DCFA3FB81C9932E90077F835 /* VideoPreviewer.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = VideoPreviewer.framework;
+			remoteRef = DCFA3FB71C9932E90077F835 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		DCAE0D201C96AE9200FF9A94 /* Resources */ = {
@@ -156,6 +245,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCFA3FBC1C993A120077F835 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VideoPreviewer;
+			targetProxy = DCFA3FBB1C993A120077F835 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DCAE0D2E1C96AE9200FF9A94 /* Main.storyboard */ = {
@@ -263,8 +360,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/VideoPreviewer",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PROJECT_DIR)/VideoPreviewer/VideoPreviewer/ffmpeg/include\"",
+					"\"$(PROJECT_DIR)/VideoPreviewer/VideoPreviewer/DJIH264Decoder/include\"",
+					"\"$(PROJECT_DIR)/VideoPreviewer/VideoPreviewer/Lb2AUDHack/\"",
+					"\"$(PROJECT_DIR)/VideoPreviewer/VideoPreviewer/\"",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = VermeerBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VideoPreviewer/DJIH264Decoder/lib",
+					"$(PROJECT_DIR)/VideoPreviewer/ffmpeg/lib",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.weburner.VermeerBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -274,8 +393,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/VideoPreviewer",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PROJECT_DIR)/VideoPreviewer/VideoPreviewer/ffmpeg/include\"",
+					"\"$(PROJECT_DIR)/VideoPreviewer/VideoPreviewer/DJIH264Decoder/include\"",
+					"\"$(PROJECT_DIR)/VideoPreviewer/VideoPreviewer/Lb2AUDHack/\"",
+					"\"$(PROJECT_DIR)/VideoPreviewer/VideoPreviewer/\"",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = VermeerBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VideoPreviewer/DJIH264Decoder/lib",
+					"$(PROJECT_DIR)/VideoPreviewer/ffmpeg/lib",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.weburner.VermeerBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -300,6 +441,7 @@
 				DCAE0D3B1C96AE9200FF9A94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
